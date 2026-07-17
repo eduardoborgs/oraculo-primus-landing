@@ -21,8 +21,7 @@ export default defineConfig(({ mode }) => {
     
     // Define a rota base de forma dinâmica: 
     // Localmente usa '/' e no GitHub Pages usa o nome do repositório
-    base: mode === "production" ? "/oraculo-primus-landing/" : "/",
-    
+    base: "/oraculo-primus-landing/",    
     build: {
       outDir: path.resolve(__dirname, "dist"),
       emptyOutDir: true,
